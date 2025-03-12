@@ -51,9 +51,10 @@ body {
 }
 
 .main {
-    padding: 15%;
+    padding: 10%;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     gap: 5px;
 }
@@ -97,7 +98,9 @@ body {
 }
 
 .extra__img {
-    width: 75%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .carrd__footer {
@@ -129,6 +132,9 @@ body {
     }
     .main__link__img {
         width: 20px;
+    }
+    .extra__img {
+        width: 100%;
     }
     .carrd__footer {
         padding-top: 9%;
