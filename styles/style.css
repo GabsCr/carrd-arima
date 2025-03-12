@@ -107,7 +107,37 @@ body {
     color: #313131;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 670px) {
+    body {
+        font-size: 20px;
+    }
+    .header__menu {
+        padding-top: 5%;
+        padding-bottom: 25%;
+    }
+    .header__menu__links {
+        font-size: 12px;
+        width: 35%;
+    }
+    .main__img__image {
+        width: 45%;
+    }
+    .main__link__links {
+        font-size: 14px;
+    }
+    .main__link__img {
+        width: 20px;
+    }
+    .carrd__footer {
+        padding-top: 50%;
+        font-size: 10px;
+    }
+    .extra__img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 671px) and (max-width: 720px) {
     body {
         font-size: 14px;
     }
