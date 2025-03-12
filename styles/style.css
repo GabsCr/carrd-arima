@@ -25,7 +25,8 @@ body {
 }
 
 .carrd__main {
-    margin: 9vh 0 0 25vw;
+    margin: 2vh 0 0 10vw;
+    padding: 1% 15% 0 15%;
     background-color: white;
     width: 50vw;
     border-radius: 8px;
@@ -50,7 +51,7 @@ body {
 }
 
 .main {
-    padding: 5%;
+    padding: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,20 +108,21 @@ body {
     color: #313131;
 }
 
-@media (max-width: 670px) {
-    body {
-        font-size: 20px;
+@media (max-width: 600px) {
+    .carrd__main {
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
     .header__menu {
-        padding-top: 5%;
-        padding-bottom: 25%;
+        padding-bottom: 8%;
     }
     .header__menu__links {
-        font-size: 12px;
+        font-size: 14px;
+        padding: 2%;
         width: 35%;
     }
     .main__img__image {
-        width: 45%;
+        width: 50%;
     }
     .main__link__links {
         font-size: 14px;
@@ -129,17 +131,15 @@ body {
         width: 20px;
     }
     .carrd__footer {
-        padding-top: 50%;
+        padding-top: 9%;
         font-size: 10px;
-    }
-    .extra__img {
-        width: 100%;
     }
 }
 
-@media (min-width: 671px) and (max-width: 720px) {
+
+@media (min-width: 601px) and (max-width: 1200px) {
     body {
-        font-size: 14px;
+        font-size: 20px;
     }
     .header__menu {
         padding-top: 5%;
@@ -147,19 +147,25 @@ body {
     }
     .header__menu__links {
         font-size: 14px;
-        width: 20%;
+        width: 30%;
+    }
+    .main {
+        gap: 10px;
     }
     .main__img__image {
-        width: 25%;
+        width: 50%;
+    }
+    .main__link {
+        gap: 7px;
     }
     .main__link__links {
-        font-size: 14px;
+        font-size: 20px;
     }
     .main__link__img {
         width: 20px;
     }
     .carrd__footer {
-        padding-top: 15%;
+        padding-top: 10%;
         font-size: 10px;
     }
     .extra__img {
@@ -167,27 +173,5 @@ body {
     }
 }
 
-@media (min-width: 721px) and (max-width: 1200px) {
-    body {
-        font-size: 16px;
-    }
-    .header__menu__links {
-        font-size: 16px;
-        width: 22.5%;
-    }
-    .main__img__image {
-        width: 35%;
-    }
-    .main__link__links {
-        font-size: 16px;
-    }
-    .main__link__img {
-        width: 20px;
-    }
-    .carrd__footer {
-        font-size: 14px;
-    }
-    .extra__img {
-        width: 100%;
-    }
-}
+
+
