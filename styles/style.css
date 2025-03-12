@@ -7,7 +7,7 @@
 }
 
 body {
-    font-size: 1.4rem;
+    font-size: 2.0rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -94,7 +94,7 @@ body {
 .main__img__image {
     border: 4px solid purple;
     border-radius: 50%;
-    width: 50%;
+    width: 75%;
 }
 
 .extra__img {
@@ -112,23 +112,26 @@ body {
 }
 
 @media (max-width: 600px) {
+    body {
+        font-size: 1.5rem;
+    }
     .carrd__main {
-        padding-top: 4%;
-        padding-bottom: 4%;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
     .header__menu {
-        padding-bottom: 8%;
+        padding-bottom: 15%;
     }
     .header__menu__links {
-        font-size: 14px;
-        padding: 2%;
-        width: 35%;
-    }
-    .main__img__image {
+        font-size: 16px;
+        padding-bottom: 2%;
         width: 50%;
     }
+    .main__img__image {
+        width: 75%;
+    }
     .main__link__links {
-        font-size: 14px;
+        font-size: 20px;
     }
     .main__link__img {
         width: 20px;
@@ -137,23 +140,19 @@ body {
         width: 100%;
     }
     .carrd__footer {
-        padding-top: 9%;
+        padding-top: 15%;
         font-size: 10px;
     }
 }
 
 
-@media (min-width: 601px) and (max-width: 1200px) {
+@media (min-width: 601px) and (max-width: 1020px) {
     body {
-        font-size: 20px;
-    }
-    .header__menu {
-        padding-top: 5%;
-        padding-bottom: 10%;
+        font-size: 1.5rem;
     }
     .header__menu__links {
-        font-size: 14px;
-        width: 30%;
+        font-size: 16px;
+        width: 25%;
     }
     .main {
         gap: 10px;
@@ -170,14 +169,15 @@ body {
     .main__link__img {
         width: 20px;
     }
-    .carrd__footer {
-        padding-top: 10%;
-        font-size: 10px;
-    }
     .extra__img {
         width: 100%;
     }
 }
 
+@media (min-width: 1021px) and (max-width: 1200px) {
+    .header__menu__links {
+        font-size: 20px;
+        width: 20%;
+    }
 
-
+}
