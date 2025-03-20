@@ -26,8 +26,8 @@ body {
 }
 
 .carrd__main {
-    margin: 0 0 0 20vw;
-    padding: 1% 5% 0 5%;
+    margin: 0 0 0 24vw;
+    padding: 1% 2.5% 0 2.5%;
     background-color: white;
     width: 50vw;
     border-radius: 8px;
@@ -98,8 +98,6 @@ body {
 }
 
 .extra__img {
-    display: flex;
-    justify-content: center;
     width: 100%;
 }
 
@@ -117,11 +115,11 @@ body {
         font-size: 1.5rem;
     }
     .carrd__main {
-        padding-top: 10%;
-        padding-bottom: 10%;
+        margin: 0 0 0 15vw; 
+        padding: 1vh 10vw 1vh 10vw;
     }
     .header__menu {
-        padding-bottom: 15%;
+        padding-bottom: 10%;
     }
     .header__menu__links {
         font-size: 16px;
